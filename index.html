@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دعوت‌نامه عروسی</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- لایه بلور با موزیک -->
+  <div id="intro-overlay">
+    <div class="overlay-content">
+      <p>آیا مایل به شنیدن موزیک هستید؟</p>
+      <div class="music-buttons">
+        <button id="playMusic" title="Play"><img src="icons/play.svg" alt="Play"></button>
+        <button id="muteMusic" title="Mute"><img src="icons/mute.svg" alt="Mute"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- موزیک -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- عکس بالا با متن متحرک -->
+  <div class="top-image">
+    <img src="images/top.jpg" alt="Top Image">
+    <div class="top-text top-line1">WE'RE GETTING MARRIED</div>
+    <div class="top-text top-line2">Zarnaz & Asad</div>
+  </div>
+
+  <!-- شمارش معکوس -->
+  <div class="countdown">
+      <div><span id="seconds">00</span><label>Seconds</label></div>
+      <div><span id="minutes">00</span><label>Minutes</label></div>
+      <div><span id="hours">00</span><label>Hours</label></div>
+      <div><span id="days">00</span><label>Days</label></div>
+  </div>
+
+  <!-- تصویر وسط و اسامی دو طرف -->
+  <div class="middle-section">
+    <div class="name-block">
+      <div class="en-name">Asad</div>
+      <div class="fa-name">اسد مرادی</div>
+    </div>
+   <img src="images/middle.jpg" class="middle-photo" alt="Middle">
+    <div class="name-block">
+      <div class="en-name">Zarnaz</div>
+      <div class="fa-name">زرناز بازرگانی</div>
+    </div>
+  </div>
+
+  <!-- اطلاعات مراسم -->
+<div class="event-info">
+  <p class="line-1">مراسم عروسی ما</p>
+  <p class="line-2">تاریخ برگزاری مراسم</p>
+  <p class="line-3">سه شنبه 3 تیر 1404, از ساعت 20الی پاسی از شب</p>
+  <p class="line-4">محل برگزاری مراسم</p>
+  <p class="line-5">رشت ,کیلومتر ۱۰ جاده رشت به تهران ((تالار عروسی گویا))</p>
+  <p class="line-6"><a href="https://goo.gl/maps/KYjFaTfPABT2" target="_blank">location</a></p>
+  <p class="line-7">منتظر حضور شما هستیم!</p>
+</div>
+
+
+  <!-- عکس پایین با نوشته متحرک -->
+  <div class="bottom-image">
+    <img src="images/bottom.jpg" alt="Bottom Image">
+    <div class="bottom-text">"Starting a life together is a journey of love and trust...."
+
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
