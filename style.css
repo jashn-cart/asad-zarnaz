@@ -237,4 +237,21 @@ body {
   color: #0000ff; /* رنگ طلایی برای لینک موقعیت */
   text-decoration: underline;
 }
+.map-button {
+  display: inline-block;
+  background-color: #ffcc99;
+  color: #333;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.map-button:hover {
+  background-color: #ffb266;
+  transform: scale(1.05);
+}
 
